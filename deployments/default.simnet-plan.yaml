@@ -55,6 +55,11 @@ plan:
             path: contracts/evolution-parameters.clar
             clarity-version: 2
         - emulated-contract-publish:
+            contract-name: inter-species-interactions
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/inter-species-interactions.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: quantum-life-form
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/quantum-life-form.clar
