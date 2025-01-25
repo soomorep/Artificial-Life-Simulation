@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.evolution-parameters]
+path = 'contracts/evolution-parameters.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.quantum-life-form]
 path = 'contracts/quantum-life-form.clar'
 clarity_version = 2
